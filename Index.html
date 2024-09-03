@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4b0c82d663.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainStyle.css" />
+    <title>Detailer & Clean</title>
+  </head>
+
+  <body>
+     <header id="component-header"><!--
+      <nav id="component-header-navbar" class="component-navbar">
+        <img
+          class="img-navbar-LogImg"
+          src="assets/logoDetalierClear.jpg"
+          alt=""
+        />
+
+        <div class="section-navbar-nav">
+          <button id="ActionBtnNav" class="section-navbar-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul id="section-navbar-ul" class="navbarList">
+            <li><a href="#" class="configAnchoNav">Sobre nós.</a></li>
+            <li><a href="#" class="configAnchoNav">Serviços.</a></li>
+            <li><a href="#" class="configAnchoNav">Contato.</a></li>
+          </ul>
+        </div>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg  bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">  <img
+            class="img-navbar-LogImg"
+            src="assets/logoDetalierClear.jpg"
+            alt=""
+          /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active configAnchoNav" aria-current="page" href="#">Home</a>
+              <a class="nav-link active configAnchoNav" href="#">Sobre nós</a>
+              <a class="nav-link active configAnchoNav" href="#">Kit Renova</a>
+              <a class="nav-link active configAnchoNav" href="#">Outros Serviços</a>
+              <a class="nav-link active configAnchoNav" href="#">Contato</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="component-header__section" class="component-header__section">
+        <div class="component__header-section-text">
+          <h1
+            class="header_textTitle"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            Bem-vindo a Detalier & Clean
+          </h1>
+
+          <p
+            class="header_textPagraph"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            Higiene em cada detalhe !
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <main id="component-main">
+
+      <!-- About -->
+      <section class="section-component_about">
+        <div class="component_about-text">
+          <span class="fontStyle-describe">Um pouco mais sobre a DetalierClean</span>
+          <h1 class="fontStyle-title">Fazemos o nosso melhor para proporcionar o melhor.</h1>
+        </div>
+        <div id="component_about-carousel_About" class="carousel slide">
+          <div class="carousel_About-Display_Btn">
+            <button
+              type="button"
+              data-bs-target="#component_about-carousel_About"
+              data-bs-slide-to="0"
+              class="carousel_About-Display_Btn-Btn fontStyle-title  active"
+              aria-current="true"
+              aria-label="Slide 1"
+            >
+              Por que nós
+            </button>
+            <button
+              type="button"
+              data-bs-target="#component_about-carousel_About"
+              data-bs-slide-to="1"
+              class="carousel_About-Display_Btn-Btn fontStyle-title"
+              aria-label="Slide 2"
+            >
+              Nossas Diretrizes
+            </button>
+            <button
+              type="button"
+              data-bs-target="#component_about-carousel_About"
+              data-bs-slide-to="2"
+              class="carousel_About-Display_Btn-Btn fontStyle-title"
+              aria-label="Slide 3"
+            >
+              Outros Serviços
+            </button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <article class="component_about-carousel_About-PN">
+                <section class="carousel_About-display_article">
+                  
+                  <article class="display_article">
+                    <i class="fa-regular fa-comments icon"></i>
+                    <h1 class="DisplayService-text">
+                      Atendimento Diferenciado
+                    </h1>
+                    <p class="DisplayService-descripe">
+                      Elaboramos sua proposta conforme suas exigências.
+                    </p>
+                  </article>
+
+                  <article class="display_article">
+                    <i class="fa-solid fa-users-line icon"></i>
+                    <h1 class="DisplayService-text">Equipe treinada</h1>
+                    <p class="DisplayService-descripe">
+                      Todos os nossos colaboradores passam por treinamentos
+                      abrangentes sobre métodos de limpeza e utilização de
+                      equipamentos.
+                    </p>
+                  </article>
+                  <article class="display_article">
+                    <i class="fa-solid fa-users-gear icon"></i>
+                    <h1 class="DisplayService-text">Serviços Especializado</h1>
+                    <p class="DisplayService-descripe">
+                      Fornecemos todos os nossos serviços de forma
+                      especializada, utilizando técnicas e produtos de alta
+                      qualidade.
+                    </p>
+                  </article>
+                  <article class="display_article">
+                    <i class="fa-regular fa-handshake icon"></i>
+                    <h1 class="DisplayService-text">Profissionalismo</h1>
+                    <p class="DisplayService-descripe">
+                      Conduzimos inspeções de controle de qualidade regularmente
+                      para assegurar a excelência dos nossos serviços.
+                    </p>
+                  </article>
+                </section>
+                <section class="carousel_About-display_card">
+                  <img
+                    class="display_card-DisplayImgAndVideo"
+                    src="../../../assets/logoDetalierClear.jpg"
+                    alt=""
+                  />
+
+                  <div class="display_card-DisplayImg-text">
+                    <div class="DisplayImg-text-content">
+                      <h1 class="fontStyle-title">
+                        A atenção à higiene deve ser constante em cada detalhe.
+                      </h1>
+                      <p class="fontStyle-describe">
+                        Nossa equipe de profissionais é altamente qualificada
+                        para oferecer serviços de limpeza e higienização de
+                        primeira qualidade.
+                      </p>
+                    </div>
+
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=5511954200091&text&type=phone_number&app_absent=0"
+                    >
+                      <button type="button" class="btn fontStyle-title btn-success DisplayImg_btn">
+                        Agende agora a sua higienização
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </button>
+                    </a>
+                  </div>
+                </section>
+              </article>
+            </div>
+            <div class="carousel-item ">
+              <article class="component_about-carousel_About-ND">
+                <!-- IMG -->
+                <img
+                  class="carousel_About-ND_img"
+                  src="../../../assets/ND-img1.jpeg"
+                  alt=""
+                />
+
+                <!-- TEXT -->
+                <div class="carousel_About-ND_valuetion">
+                  <div class="ND_valuetion_display">
+                    <div class="Nd-value">
+                      <h4 class="fontStyle-title">Nossa Missão</h4>
+                      <p class="fontStyle-describe">
+                        Transformar a higienização de estofados em um hábito na
+                        vida dos nossos clientes, enfatizando o cuidado
+                        meticuloso em cada etapa do processo.
+                      </p>
+                    </div>
+
+                    <div class="Nd-value">
+                      <h4 class="fontStyle-title">Nossa Visão</h4>
+                      <p class="fontStyle-describe">
+                        Almejamos ser a empresa líder do mercado, reconhecida
+                        pelos nossos clientes pela excelência do trabalho, desde
+                        o primeiro contato até o pós-venda
+                      </p>
+                    </div>
+
+                    <div class="Nd-value">
+                      <h4 class="fontStyle-title">Nossos Valores</h4>
+                      <ol class="listElementND">
+                        <li>
+                          <p class="fontStyle-describe">
+                            Comprometimento: Zelamos pela integridade do que foi
+                            acordado com nossos clientes.
+                          </p>
+                        </li>
+                        <li>
+                          <p class="fontStyle-describe">
+                            Educação: Instruímos nossos colaboradores a tratar
+                            nossos clientes com educação, gentileza e
+                            cordialidade.
+                          </p>
+                        </li>
+                        <li>
+                          <p class="fontStyle-describe">
+                            Eficácia: Oferecemos serviços de alta qualidade,
+                            complementados por um acompanhamento pós-venda para
+                            garantir a satisfação contínua.
+                          </p>
+                        </li>
+                        <li>
+                          <p class="fontStyle-describe">
+                            Inovação: Buscamos constantemente inovar,trazendo
+                            novas técnicas e produtos ao mercado para atender às
+                            necessidades dos nossos clientes.
+                          </p>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="carousel-item">
+              <article class="component_about-carousel_About-OS">
+                <div class="carousel_About-OS-text">
+                  <div class="About-OS-text">
+                    <h4 class="fontStyle-title">Cristalização de Carros:</h4>
+                    <p class="fontStyle-describe">
+                      A cristalização é uma técnica avançada que aplicamos com a
+                      mais alta qualidade. Envolve a aplicação de um
+                      revestimento à base de sílica que cria uma camada de
+                      proteção altamente resistente a arranhões, raios UV,
+                      intempéries e poluição. Além de fornecer proteção, a
+                      cristalização realça a aparência da pintura, tornando-a
+                      mais brilhante e vibrante. Escolha este serviço para
+                      proteger e embelezar a pintura do seu veículo.
+                    </p>
+                  </div>
+
+                  <div class="About-OS-text">
+                    <h4 class="fontStyle-title">Vitrificação de Carros:</h4>
+                    <p class="fontStyle-describe">
+                      Nossa vitrificação automotiva é uma opção premium para
+                      aqueles que buscam a máxima proteção e brilho. Utilizamos
+                      revestimentos de cerâmica conhecidos por sua durabilidade
+                      e resistência excepcionais. Esses revestimentos criam uma
+                      camada protetora que defende a pintura contra arranhões,
+                      manchas, raios UV e influências ambientais. Além disso, a
+                      vitrificação proporciona um brilho duradouro e deixa a
+                      superfície do seu veículo incrivelmente lisa.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="carousel_About-OS-img">
+                  <img class="OS-img" src="../../../assets/OS-1.jpeg" alt="" />
+                  <img class="OS-img" src="../../../assets/OS-2.jpeg" alt="" />
+                  <img class="OS-img" src="../../../assets/OS-3.jpeg" alt="" />
+                  <img class="OS-img" src="../../../assets/OS-4.jpeg" alt="" />
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Service:KIT Renova -->
+      <section class="component_services-kitrenova">
+        <div class="services-kitrenova_container_sec-left">
+          <!-- Img Aqui -->
+          <div class="kitrenova_container_sec-left-text">
+            <h3 class="fontStyle-title">Conheça nosso Kit Renova,o kit ideal para seu automovel</h3>
+            <p class="fontStyle-describe">
+              O kit renova é um pacote perfeito para conservação do seu
+              automovel,já que nele contém serviço de polimento e higien
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511954200091&text&type=phone_number&app_absent=0"
+              ><button
+                type="button"
+                class="btn btn-success fontStyle-title"
+              >
+                Agende agora a sua higienização
+                <i class="fa-brands fa-whatsapp"></i></button
+            ></a>
+          </div>
+        </div>
+
+        <div class="services-kitrenova_container_sec-right">
+          <div class="work-content">
+            <h3 class="fontStyle-title">
+              Seu Parceiro em Higienização de Estofados e Polimento de Carros!
+            </h3>
+            <p></p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511954200091&text&type=phone_number&app_absent=0"
+              ><button
+                type="button"
+                class="btn btn-success text-sanitation-btn fontStyle-title"
+              >
+                Agende agora a sua higienização
+                <i class="fa-brands fa-whatsapp"></i></button
+            ></a>
+          </div>
+
+          <div class="work-imgs">
+            <div class="work-img-1">
+              <!-- Img aqui -->
+            </div>
+
+            <div class="work-img-2">
+              <!-- Img aqui -->
+            </div>
+          </div>
+          <h3 class="services-kitrenova_container_sec-right-h3 fontStyle-title">
+            Siga nos no instagram para mais promoções <a href="">@detailer.e.clean</a>
+          </h3>
+        </div>
+        
+      </section>
+
+      <!-- Services -->
+      <section id="section_component-services-other" class="carousel slide">
+        <div class="carousel-inner component-services-other_carousel-main">
+         
+
+          <div class="carousel-item active component-services-other_carousel-0 component-services-other_carousel-content ">
+           
+            <section class="">
+              <img
+              class="component-services-other_carousel-img-0"
+            >
+
+            <img
+            class="component-services-other_carousel-img-1"
+            ></img>
+
+            <div class="component-services-other_carousel-main-text">
+
+              <article class="ohter_carousel-main-text-article">
+                
+              <h4 class="fontStyle-title">
+                Seu Parceiro em Higienização de Estofados e Polimento de Carros!
+              </h4>
+
+              <p class="fontStyle-describe">
+                Revitalize seu veículo com nossos serviços de higienização de estofados e polimento de carros. Utilizamos técnicas avançadas e produtos de alta qualidade para garantir que seu carro brilhe como novo. Confie em nós para manter seu veículo impecável e elegante em cada viagem.
+              </p>
+              </article>
+
+              <div class="display-Btn-Navigation-0">
+                <button
+                  type="button"
+                  class=" component-other_btn-style fontStyle-title"
+                  data-bs-target="#section_component-services-other"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                >Higienização</button>
+                <button
+                  type="button "
+                  class=" component-other_btn-style fontStyle-title"
+                  data-bs-target="#section_component-services-other"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                >Polimento</button>
+              </div>
+            </div>  
+            </section>
+               
+            
+          </div>
+
+          <div class="carousel-item   component-services-other_carousel-1 component-services-other_carousel-content">
+            <section>
+              <img
+              class="component-services-other_carousel-1-img-0"
+              ></img>
+              <article class="component-services-other_carousel-main-text">
+                
+                <div class="ohter_carousel-main-text-article-defaut">
+                  <h1 class="other_carousel-1_article-title-defaut fontStyle-title">Higienização de Estofados:</h1>
+                  <p class="other_carousel-1_article-describe-defaut fontStyle-describe">Manter seus estofados higienizados não é apenas uma questão de aparência, mas também de saúde e bem-estar. A higienização regular não apenas remove manchas visíveis, mas também elimina ácaros, bactérias e alérgenos que podem se acumular ao longo do tempo. Garantir a limpeza profunda de seus estofados não só prolonga sua vida útil, mas também proporciona um ambiente mais saudável para você e sua família.</p>
+                  <a href="https://api.whatsapp.com/send/?phone=5511954200091&text&type=phone_number&app_absent=0"><button type="button" class="btn btn-success fontStyle-title">Agende agora a sua higienização <i class="fa-brands fa-whatsapp"></i></button></a>
+          
+                </div>
+                <div class="display-Btn-Navigation-1">
+                <button
+                  type="button btn"
+                  data-bs-target="#section_component-services-other"
+                  data-bs-slide-to="0"
+                  class=" component-other_btn-style fontStyle-title"
+                  aria-current="true"
+                 >Main</button>
+                <button
+                  type="button btn"
+                  data-bs-target="#section_component-services-other"
+                  data-bs-slide-to="2"
+                  class=" component-other_btn-style fontStyle-title"
+                >Polimento</button>
+                </div>
+              </article>
+            </section>
+           
+          </div>
+
+          <div class="carousel-item component-services-other_carousel-2 component-services-other_carousel-content">
+            <section>
+              <img
+            class="component-services-other_carousel-2-img-1"
+            ></img>
+
+            <article class="component-services-other_carousel-main-text">
+              <div class="ohter_carousel-main-text-article-defaut">
+                <h1 class="other_carousel-1_article-title-defaut fontStyle-title">Polimento de Carros:</h1>
+                <p class="other_carousel-1_article-describe-defaut fontStyle-describe">O polimento regular do seu carro vai além do aspecto estético, é um investimento na preservação e proteção da pintura. Além de proporcionar um brilho duradouro, o polimento remove pequenas imperfeições, arranhões e oxidação, prevenindo danos mais significativos a longo prazo. Ao manter o exterior do seu carro polido, não apenas preserva a sua beleza, mas também ajuda a proteger a pintura contra os efeitos do clima e do tempo, mantendo-o com uma aparência nova por mais tempo.</p>
+                <a href="https://api.whatsapp.com/send/?phone=5511954200091&text&type=phone_number&app_absent=0"><button type="button" class="btn btn-success fontStyle-title">Agende agora o seu polimento <i class="fa-brands fa-whatsapp"></i></button></a>
+           </div>
+              <div class="display-Btn-Navigation-1">
+              <button
+                type="button btn"
+                data-bs-target="#section_component-services-other"
+                data-bs-slide-to="0"
+                class="fontStyle-title component-other_btn-style fontStyle-title"
+                aria-current="true"
+               >Main</button>
+              <button
+                type="button btn"
+                data-bs-target="#section_component-services-other"
+                data-bs-slide-to="1"
+                class="fontStyle-title component-other_btn-style fontStyle-title"
+              >Higienização</button>
+              </div>
+            </article>
+            </section>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section_component-contact">
+    
+        <article class="section_component-contact_container">
+
+            <div class="component-contact_container-top">
+            <h3 class="fontStyle-title fontStyle-title">Contate me</h3>
+            <p class="fontStyle-describe">Revitalize seu carro com nosso polimento, higienização completa e estofados impecáveis. Fale conosco hoje!</p>
+            </div>
+
+            <div class="component-contact_container-midle">
+
+              <div class="component-contact_container-card">
+                <span class="container-card-icon">
+                    <i class="fas fa-map-signs"></i>
+                </span>
+                <span class="fontStyle-title">Endereço:</span>
+                <p class="fontStyle-describe">R. Ataliba Nogueira, 65 - Jardim Caguassu, São Paulo - SP, 03906-070</p>
+              </div>
+    
+              <div class="component-contact_container-card">
+                <span class="container-card-icon">
+                    <i class="fas fa-phone"></i>
+                </span>
+                <span class="fontStyle-title">Whatsapp</span>
+                <p class="fontStyle-describe">(11)98888-8888</p>
+              </div>
+    
+              <div class="component-contact_container-card">
+                <span class="container-card-icon">
+                  <i class="fa-regular fa-envelope"></i>
+                </span>
+                <span class="fontStyle-title">E-mail:</span>
+                <p class="fontStyle-describe">contato@detailereclean.com.br</p>
+              </div>
+
+              <div class="component-contact_container-card">
+                <span class="container-card-icon">
+                    <i class="fas fa-globe"></i>
+                </span>
+                <span class="fontStyle-title">Website:</span>
+                <p class="fontStyle-describe">www.detailereclean.com.br</p>
+              </div>
+
+            </div>
+
+            <div class="component-contact_container-bottom" >
+              <iframe class="contact_container-bottom-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.3398353549771!2d-46.513171661556605!3d-23.57994553644232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce677f2e54b8f9%3A0x38666a6b525e8e92!2sR.%20Ataliba%20Nogueira%2C%2065%20-%20Jardim%20Caguassu%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003906-070!5e0!3m2!1spt-BR!2sbr!4v1723472683395!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0; margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+        </article>
+        
+      </section>
+
+    </main>
+
+    <footer class="section-footer-component">
+            
+        <img class="footer-component-img">
+
+        <article class="footer-component_Encontrenos">
+          <section class="component_Encontrenos">
+            <h5 class="fontStyle-title">Encontre nos</h5>
+            <p class="fontStyle-describe">Rua Ataliba Nogueira, 65, Aricanduva, São Paulo - SP, 03906-070</p>
+          </section>
+          <section class="component_Invite">
+            <h5 class="fontStyle-title">Visite nossas redes:</h5>
+            <a href="https://www.instagram.com/detailer.e.clean/"><button class="component_Invite-Btn"><i class="fa-brands fa-instagram"></i></button></a>
+              
+          </section>
+        </article>
+    </footer>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="dinamic/AOS.js"></script>
+    <script src="dinamic/EffectNav.js"></script>
+  </body>
+</html>
