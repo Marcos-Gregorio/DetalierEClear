@@ -178,6 +178,7 @@
   display: grid;
   row-gap: 20%;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4,125px);
 
 }
 .display_article {
